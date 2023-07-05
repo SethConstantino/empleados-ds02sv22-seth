@@ -6,7 +6,7 @@ const path=require('path')
 
 //conexión con la base de datos
 mongoose//.connect('mongodb://127.0.0.1:27017/empleadosds02sv22')
-.connect('mongodb+srv://jaircmti:Fenix#6699@ds02.laba2zf.mongodb.net/empleadosds02sv22?retryWrites=true&w=majority')
+.connect('mongodb+srv://jaircmti20:Fenix6699@cluster0.dqlji6n.mongodb.net/empleadosds02sv22?retryWrites=true&w=majority')
 .then((x)=>{
     console.log(`Conectado exitosamente a la base de datos: "${x.connections[0].name}"`)
 })
